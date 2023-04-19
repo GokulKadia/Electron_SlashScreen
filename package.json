@@ -1,0 +1,17 @@
+{
+  "name": "electron_splashscreen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scr/main.js",
+  "scripts": {
+    "start": "electron .",
+    "gk":"nodemon --exec electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^24.0.0",
+    "nodemon": "^2.0.22"
+  }
+}

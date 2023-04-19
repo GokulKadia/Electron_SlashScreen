@@ -1,0 +1,106 @@
+body
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #0076CE;
+    backdrop-filter: blur(120px);
+    border-radius: 7px;
+}
+.backimg
+{
+    width: 642px;
+    height: 482px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+.mainlogo
+{
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+
+}
+.lbltext
+{
+    width: 175px;
+    height: 28px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* progress {
+    border-radius: 7px; 
+    width: 230px;
+    
+    margin-left: 11.5%;
+    border-radius: 99px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  progress::-webkit-progress-bar {
+    background-color: #d7d4d4;
+    border-radius: 99px;
+    height:3px;
+  }
+  progress::-webkit-progress-value {
+    background-color: #ffffff;
+    border-radius: 999px;
+    height: 10px;
+    font-weight: bold;
+  } */
+
+.divmainprg
+{
+    border-radius: 7px; 
+    width: 230px;  
+    margin-left: 11.5%;
+    border-radius: 99px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.5%;
+    background-color:#ffffffad!important;
+    height:2px;
+}
+.divprgbar
+{
+  background-color:#ffffff!important;
+  height:2px;
+  border-radius: 999px;
+}
+.lblversion
+{
+    width: 33px;
+    height: 20px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+::-webkit-scrollbar {
+    display: none;
+    color: #FFFFFF;
+}
